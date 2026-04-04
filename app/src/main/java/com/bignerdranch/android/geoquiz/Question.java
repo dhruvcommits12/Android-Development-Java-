@@ -4,9 +4,26 @@ public class Question {
     private int mTextResId;
     //will hold a resource ID of a string resource for the question
     private boolean mAnswerTrue;
-    public Question(int textResId, boolean answerTrue){  //constructor
+    public Question(int textResId, boolean answerTrue){ //constructor
         mTextResId=textResId;
         mAnswerTrue=answerTrue;
     }
+
+    public int getTextResId() {
+        return mTextResId;
+    }
+
+    public void setTextResId(int textResId) {
+        mTextResId = textResId;
+    }
+
+    public boolean isAnswerTrue() {
+        return mAnswerTrue;
+    }
+
+    public void setAnswerTrue(boolean answerTrue) {
+        mAnswerTrue = answerTrue;
+    }
+
 
 }
